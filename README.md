@@ -9,9 +9,9 @@
 <p align="center">
   <a href="http://protocol.ai"><img src="https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat" /></a>
   <a href="http://ipfs.io/"><img src="https://img.shields.io/badge/project-IPFS-blue.svg?style=flat" /></a>
-</p>  
+</p>
 
-<p align="center">  
+<p align="center">
   <a href="https://riot.im/app/#/room/#ipfs-dev:matrix.org"><img src="https://img.shields.io/badge/matrix-%23ipfs%3Amatrix.org-blue.svg?style=flat" /> </a>
   <a href="http://webchat.freenode.net/?channels=%23ipfs"><img src="https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat" /></a>
   <a href="https://discord.gg/24fmuwR"><img src="https://img.shields.io/discord/475789330380488707?color=blueviolet&label=discord&style=flat" /></a>
@@ -373,7 +373,7 @@ Enable and configure experimental features.
 |------|---------|
 | object |  [`config-nodejs.js`](https://github.com/ipfs/js-ipfs/tree/master/src/core/runtime/config-nodejs.js) in Node.js, [`config-browser.js`](https://github.com/ipfs/js-ipfs/tree/master/src/core/runtime/config-browser.js) in browsers |
 
-Modify the default IPFS node config. This object will be *merged* with the default config; it will not replace it. The default config is documented in [the js-ipfs config file doc](doc/config.md).
+Modify the default IPFS node config. This object will be *merged* with the default config; it will not replace it. The default config is documented in [the js-ipfs config file docs](docs/config.md).
 
 ###### Configuring Delegate Routers
 
