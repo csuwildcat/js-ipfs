@@ -5,6 +5,10 @@ module.exports = {
 
   describe: 'List all local references.',
 
+  builder (yargs) {
+    return yargs.epilog('CIDs are reconstructed therefore they might differ from those under which the blocks were originally stored.')
+  },
+
   handler ({ getIpfs, print, resolve }) {
     resolve((async () => {
       const ipfs = await getIpfs()
